@@ -1,38 +1,20 @@
-import React, {useEffect, useState} from 'react';
-import axios from 'axios';
-import './style.css';
+import Navbar from './components/Navbar';
+import Feed from './components/Feed';
+import RightSidebar from './components/RightSidebar';
+import LeftSidebar from './components/LeftSidebar';
+import {Box, Stack} from '@mui/material';
 
 function App () {
-  const url = 'https://www.boredapi.com/api/activity';
-
-  const [Activity, setActivity] = useState ([{}]);
-  const [loading, setloading] = useState (false);
-
-  useEffect(() => {
-    fetch(`${url}`).then((response) => response.json()
-    ).then(data => {
-      setActivity(data)
-
-      const timeout = setTimeout(() => {
-        setloading(true)
-      }, 500)
-    })
-    
-  }, []);
-
   return (
-    <div className="App">
-      <h1>Are you bored?</h1>
-      <div>
-        {loading ?  Activity.activity  : (
-          <div className="spinner">
-            <div></div>
-            <div></div>
-          </div>
-        )}
-         
-      </div>
-    </div>
+    <Box>
+      <Navbar />
+      <Stack direction="row" spacing={2} justifyContent="space-between">
+        <LeftSidebar />
+        <Feed />
+        <RightSidebar />
+      </Stack>
+
+    </Box>
   );
 }
 

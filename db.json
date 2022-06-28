@@ -1,0 +1,36 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "EFO AND IYAN",
+            "author": "Remi",
+            "date": "09-14-2016",
+            "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "content": "This impressive Efo(Vegetable soup) and Iyan(Pounded Yam) are a perfect special occasional dish and a very nutritious one at that to make for your guests. 3 Bunches of your favourite Efo will likely do, if you like...."
+        },
+        {
+          "id": 2,
+          "title": "EFO AND IYAN",
+          "author": "Remi",
+          "date": "09-14-2016",
+          "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "content": "This impressive Efo(Vegetable soup) and Iyan(Pounded Yam) are a perfect special occasional dish and a very nutritious one at that to make for your guests. 3 Bunches of your favourite Efo will likely do, if you like...."
+        },
+        {
+          "id": 3,
+          "title": "EFO AND IYAN",
+          "author": "Remi",
+          "date": "09-14-2016",
+          "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "content": "This impressive Efo(Vegetable soup) and Iyan(Pounded Yam) are a perfect special occasional dish and a very nutritious one at that to make for your guests. 3 Bunches of your favourite Efo will likely do, if you like...."
+        },
+        {
+          "id": 4,
+          "title": "EFO AND IYAN",
+          "author": "Remi",
+          "date": "09-14-2016",
+          "image": "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+          "content": "This impressive Efo(Vegetable soup) and Iyan(Pounded Yam) are a perfect special occasional dish and a very nutritious one at that to make for your guests. 3 Bunches of your favourite Efo will likely do, if you like...."
+        }
+    ]
+}
